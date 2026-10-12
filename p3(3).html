@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BizHive Client Appointment Form</title>
+</head>
+<body>
+
+    <h2>BizHive Business Hub</h2>
+    <h3>Client Appointment Reservation Form</h3>
+
+    <form>
+        Client Name:
+        <input type="text" name="clientname">
+        <br><br>
+
+        Company Name:
+        <input type="text" name="company">
+        <br><br>
+
+        Email Address:
+        <input type="email" name="email">
+        <br><br>
+
+        Phone Number:
+        <input type="tel" name="phone">
+        <br><br>
+
+        Appointment Date:
+        <input type="date" name="date">
+        <br><br>
+
+        Appointment Time:
+        <input type="time" name="time">
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>Marketing</option>
+            <option>Finance</option>
+            <option>Human Resources</option>
+            <option>Sales</option>
+            <option>IT Support</option>
+        </select>
+        <br><br>
+
+        Appointment Type:
+        <input type="radio" name="type" value="Online"> Online
+        <input type="radio" name="type" value="In-Person"> In-Person
+        <br><br>
+
+        Purpose of Appointment:
+        <textarea name="purpose" rows="3" cols="25"></textarea>
+        <br><br>
+
+        Preferred Contact Method:
+        <input type="radio" name="contact" value="Email"> Email
+        <input type="radio" name="contact" value="Phone"> Phone
+        <br><br>
+
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
